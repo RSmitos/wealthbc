@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .dark {
+    --foreground: 0 0% 89%;
+    --muted-foreground: 0 0% 70%;
+  }
+
+  .dark body {
+    background-color: #050505;
+    color: #e3e3e3;
+    font-weight: 500;
+    line-height: 1.55;
+  }
+
+  .dark p,
+  .dark li,
+  .dark td,
+  .dark th {
+    color: #e3e3e3;
+  }
+
+  .dark .text-muted,
+  .dark .text-muted-foreground,
+  .dark .text-gray-400,
+  .dark .text-gray-500,
+  .dark .text-gray-300 {
+    color: #b3b3b3 !important;
+    font-weight: 450;
+  }
+
+  .dark .text-gold,
+  .dark .text-accent {
+    color: #f4c05a !important;
+    font-weight: 600;
+  }
+
+  .dark a {
+    color: #f4c05a;
+    font-weight: 500;
+  }
+
+  .dark a:hover {
+    color: #ffd97a;
+  }
+
+  .dark details summary {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .dark details div,
+  .dark details p {
+    color: #e3e3e3;
+    font-weight: 500;
+  }
+
+  .dark .bg-\[\#D4AF37\],
+  .dark .bg-\[\#C4A137\],
+  .dark .bg-\[\#F4C05A\] {
+    color: #000000 !important;
+  }
+}
